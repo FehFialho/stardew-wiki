@@ -1,0 +1,12 @@
+.claro{  
+    background-image: url(../img/dia.png);
+    background-color: rgb(52, 143, 143);
+}
+
+
+main{
+    background-image: url(../img/noite.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

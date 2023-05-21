@@ -1,0 +1,90 @@
+main .cartao{
+    background-color: rgb(19, 66, 66);
+    width: 160px;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'pixel';
+    font-size: 17px;
+}
+
+main .cartao:hover{
+    transform: scale(1.05);
+    background-color: rgb(63, 119, 119);
+    transition: 0.1s ease-in-out;
+}
+
+main .info{
+    width: 85px;
+    text-align: center;
+    background-color: rgb(6, 46, 34);
+    padding: 2px;
+    border: 2px solid rgb(2, 34, 29);
+    border-radius: 9px;
+    font-weight: bold;
+    color: rgb(183, 187, 181);
+    font-size: 16px;
+}
+
+main .retrato{
+    font-size: 30px;
+    margin: 7px;
+    width: 110px;
+    height: 110px;
+}
+
+main .texto-sobre{
+    max-height: 80px;
+    overflow-y: hidden;
+    font-size: 14px;
+}
+
+main .categorias{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+main .categ-genero, main .categ-civil{
+    /* background-color: rgb(107, 100, 86);
+    border: 2px solid rgb(65, 60, 50); */
+    border-radius: 20px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgb(232, 235, 231);
+    font-size: 14px;
+}
+
+.solteiro{
+    background-color: rgb(100, 172, 103);
+}
+
+.casado{
+    background-color: rgb(151, 61, 61);
+}
+
+.homem{
+    background-color: rgb(66, 98, 146);
+}
+
+.mulher{
+    background-color: rgb(124, 70, 141);
+}
+
+/* .sebastian-div{
+    display: flex;
+    position: relative;
+}
+
+.sebastian:hover{
+    opacity: 0;
+}
+
+.sebastian-happy{
+    float: left;
+} */
